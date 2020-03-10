@@ -1,7 +1,9 @@
 $(document).ready(function() {
 
   const herokuapp = "https://cors-anywhere.herokuapp.com";
+  
   $("#load").click(function() {
+    
     let token = $("#token").val();
     
     $.ajax({
