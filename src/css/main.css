@@ -1,0 +1,14 @@
+#console {
+
+  border-radius: 10px;
+  border: 2px solid purple;
+  width: 500px;
+  height: 500px;
+}
+
+#console .floaty {
+
+  color: white;
+  background: purple;
+  border-radius: 5px 5px 0 0;
+}
