@@ -1,6 +1,6 @@
 #console {
 
-  border-radius: 10px;
+  border-radius: 10px 10px 0 0;
   border: 2px solid purple;
   width: 500px;
   height: 500px;
@@ -11,4 +11,16 @@
   color: white;
   background: purple;
   border-radius: 5px 5px 0 0;
+}
+
+#console .listing {
+
+  overflow-y: scroll;
+  height: 95%;
+}
+
+#student-list {
+
+  padding-left: 20px;
+  list-style: none;
 }
